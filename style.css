@@ -1,0 +1,244 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+
+}
+.wrapper{
+	width: 1170px;
+	margin: auto;
+}
+#PopUpMain{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.6);
+	z-index: 1001;
+	font-family: 'Slabo 27px', serif;
+}
+#popup{
+	width: 500px;
+	height: 250px;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("p.jpg");
+	background-size: cover;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	box-shadow: 1px 3px 5px 3px white;
+	text-align: center;
+	font-family: 'Slabo 27px', serif;
+}
+/*#NewsHeading{
+	transform: translateY(50px);
+	color: white;
+	font-family: 'Slabo 27px', serif;
+
+}*/
+.CheckId{
+	background-color: #0fc0fa;
+	border: none;
+	font-size: 1rem;
+	padding: 0.6rem 1rem;
+	color: white;
+	font-family: 'Slabo 27px', serif;
+
+
+}
+
+
+.index{
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("bck.jpg");
+	height: 100vh;
+	background-size: cover;
+	-webkit-background-size:cover;
+	background-position: center center;
+	position: relative;
+}
+.gym{
+
+	background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)), url("gym.jpg");
+	height: 100vh;
+	background-size: cover;
+	-webkit-background-size:cover;
+	background-position: center center;
+	position: relative;
+	font-family: 'Slabo 27px', serif;
+
+}
+.dighi{
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("images(2).jpg");
+	height: 100vh;
+	background-size: cover;
+	-webkit-background-size:cover;
+	background-position: center center;
+	position: relative;
+	font-family: 'Slabo 27px', serif;
+
+}
+.durga{
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("durga.jpg");
+	height: 100vh;
+	background-size: cover;
+	-webkit-background-size:cover;
+	background-position: center center;
+	position: relative;
+font-family: 'Slabo 27px', serif;
+}
+.half{
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("half1.jpg");
+	height: 100vh;
+	background-size: cover;
+	-webkit-background-size:cover;
+	background-position: center center;
+	position: relative;
+font-family: 'Slabo 27px', serif;
+}
+.hospital{
+	background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)), url("s1.jpg");
+	height: 100vh;
+	background-size: cover;
+	-webkit-background-size:cover;
+	background-position: center center;
+	position: relative;
+font-family: 'Slabo 27px', serif;
+}
+.jampui{
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("org.jpg");
+	height: 100vh;
+	background-size: cover;
+	-webkit-background-size:cover;
+	background-position: center center;
+	position: relative;
+font-family: 'Slabo 27px', serif;
+}
+.kali{
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("images(5).jpg");
+	height: 100vh;
+	background-size: cover;
+	-webkit-background-size:cover;
+	background-position: center center;
+	position: relative;
+font-family: 'Slabo 27px', serif;
+}
+.mall{
+	background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("sho.jpg");
+	height: 100vh;
+	background-size: cover;
+	-webkit-background-size:cover;
+	background-position: center center;
+	position: relative;
+font-family: 'Slabo 27px', serif;
+}
+.uno{
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("unokoti.jpg");
+	height: 100vh;
+	background-size: cover;
+	-webkit-background-size:cover;
+	background-position: center center;
+	position: relative;
+	font-family: 'Slabo 27px', serif;
+}
+.send{
+	background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("bck.jpg");
+	height: 100vh;
+	background-size: cover;
+	-webkit-background-size:cover;
+	background-position: center center;
+	position: relative;
+	font-family: 'Slabo 27px', serif;
+
+}
+.vdo{
+	background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)), url("bck.jpg");
+	height: 100vh;
+	background-size: cover;
+	-webkit-background-size:cover;
+	background-position: center center;
+	position: relative;
+	font-family: 'Slabo 27px', serif;
+
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+}
+.title h1{
+	color: #fff;
+	font-size: 50px;
+}
+.button{
+	position: absolute;
+	top: 62%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+
+
+}
+.btn{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+.btn:hover{
+	background-color: #fff;
+	color: #000;
+}
+.checked {
+  color: orange;
+}
+
+.gallery{
+	float: left;
+	width: 30%;
+	margin: 4px;
+	border: 2px solid white; 
+}
+.gallery:hover{
+	border: 2px solid black;
+}
+.des{
+	padding: 12px;
+	text-align: center;
+	background-color: #85C1E9 ;
+}
+
+
+
+
+
+
